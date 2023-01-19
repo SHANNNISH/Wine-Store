@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 36px;
+}
+p {
+  font-size: 16px;
+}
+
+nav {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+/* FIRST SECTION */
+
+.section-header {
+  color: white;
+  width: 100%;
+  height: 100vh;
+  background-image: url(img/bgc.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.section-header__adress {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__element {
+  padding: 10px;
+  color: white;
+  width: 100%;
+  border: 1px solid white;
+}
+
+.nav__element_left {
+  border-left: 0px;
+}
+
+.nav__element_right {
+  border-right: 0px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button-header {
+  margin: 20px;
+  color: white;
+  padding: 15px 45px;
+  background-color: #998431;
+  border: 0;
+  margin-top: 57%;
+  font-size: 16px;
+}
+.button {
+  color: white;
+  padding: 15px 45px;
+  background-color: #998431;
+  border: 0;
+  font-size: 16px;
+}
+
+/* SECOND SECTION */
+
+.section-second {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* font-size: 26px; */
+  color: white;
+  width: 100%;
+  height: 100vh;
+  background: #282828;
+}
+
+.section-second__container-border {
+  text-align: center;
+  border: 1px solid white;
+  padding: 1%;
+}
+.line-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  border: 1px solid white;
+  text-decoration: none;
+  background-color: white;
+  margin-bottom: 2%;
+}
+.section-second-h1 {
+  margin-bottom: 2%;
+}
+
+.img_wineglass {
+  padding-top: 1%;
+}
+
+/* SECTION THIRD */
+
+.section-third__yellow-line {
+  border: 1px solid #998431;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.section-third__leftside {
+  width: 50%;
+  margin-right: 5%;
+}
+.section-third__rightside {
+  width: 50%;
+}
+
+.section-third {
+  margin: 0;
+  padding: 0;
+  color: black;
+  width: 100%;
+  height: auto;
+  background: #e6e3c4;
+}
+.section-third-main-content {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .section-third__rightside {
+} */
+.section-third__images {
+  width: 100%;
+  gap: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.section-third__images_element1 {
+  /* height: auto; */
+  width: 100%;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.section-third__images_element {
+  /* height: auto; */
+  width: 100%;
+}
+.section-third h1 {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.section-third__black-line {
+  border: #282828 solid 1px;
+  width: 30%;
+  background-color: #282828;
+  margin-bottom: 3%;
+}
+
+.section-third__table {
+  display: grid;
+  margin-top: 7%;
+  margin-bottom: 7%;
+  grid-template-columns: 1fr 3fr;
+}
+.section-thrid__table_element_wrapper {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-third__button {
+  margin-top: 7%;
+}
+
+.el1 {
+  border-left: 0px solid black;
+  border-top: 0px solid black;
+}
+.el2 {
+  border-top: 0px solid black;
+  border-right: 0px solid black;
+}
+.el3 {
+  border-left: 0px solid black;
+}
+.el4 {
+  border-right: 0px solid black;
+}
+.el5 {
+  border-left: 0px solid black;
+  border-bottom: 0px solid black;
+}
+.el6 {
+  border-right: 0px solid black;
+  border-bottom: 0px solid black;
+}
+.section-third__table_elem {
+  padding: 5%;
+}
+
+/* section-fourth */
+.section-fourth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 100%;
+  height: 50vh;
+  background-color: #282828;
+}
+
+.section-fourth h1 {
+  position: absolute;
+}
+
+.section-fourth__content {
+  border: 1px solid white;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 1900px) {
+  .section-second {
+    font-size: 20px;
+    line-height: 38px;
+  }
+  .section-second__container-border {
+    padding: 5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+}
