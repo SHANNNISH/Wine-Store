@@ -129,17 +129,17 @@ nav {
   margin-bottom: 3%;
 }
 .section-third__leftside {
-  width: auto;
+  width: 50%;
   margin-right: 5%;
 }
 .section-third__rightside {
-  width: auto;
+  width: 50%;
 }
 
 .section-third {
   color: black;
   width: 100%;
-  height: auto;
+  height: 100vh;
   background: #e6e3c4;
 }
 .section-third-main-content {
