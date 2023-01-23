@@ -219,6 +219,7 @@ nav {
 
 /* section-fourth */
 .section-fourth {
+  height: auto;
   padding-top: 10%;
   padding-bottom: 10%;
   display: flex;
@@ -229,10 +230,9 @@ nav {
   background-color: #282828;
 }
 
-.section-fourth h1 {
-  margin-left: 10%;
-  margin-right: 10%;
-  position: absolute;
+.button-section-fourth {
+  width: 100%;
+  padding: 15px 60px;
 }
 .section-fourth__grape {
   position: absolute;
@@ -246,10 +246,32 @@ nav {
   padding: 20%;
   border: 1px solid white;
 }
-
-.section-fourth-header {
+input::placeholder {
+  color: white;
+}
+.section-fourth__form_inputs {
   display: flex;
   justify-content: space-between;
+}
+.section-fourth__form input {
+  width: 100%;
+  padding: 1%;
+  margin: 5% 3%;
+  background-color: #282828;
+  border: none;
+  border-bottom: 1px solid white;
+  border-width: 100%;
+}
+
+.section-fourth-header {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-fourth__content-container {
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 footer {
