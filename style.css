@@ -284,9 +284,6 @@ footer p {
   display: flex;
   justify-content: space-between;
 }
-.footer__first-elements-line p {
-  padding: 0px 10px;
-}
 
 .footer__second-elements-line {
   font-weight: 600;
