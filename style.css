@@ -290,7 +290,7 @@ footer p {
 
 .footer__second-elements-line {
   font-weight: 600;
-  padding: 1% 10%;
+  padding: 1% 0px;
   border: 1px solid white;
   border-left: 0px;
   border-right: 0px;
