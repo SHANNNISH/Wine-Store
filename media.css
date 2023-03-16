@@ -27,6 +27,9 @@
   .button {
     padding: 11px 35px;
   }
+  .unness {
+    display: none;
+  }
 }
 @media (max-width: 768px) {
   .section-container {
