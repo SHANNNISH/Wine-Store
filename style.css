@@ -78,7 +78,7 @@ nav {
 }
 .button {
   transition: 0.5s;
-
+  white-space: nowrap;
   cursor: pointer;
   color: white;
   padding: 15px 45px;
